@@ -1,31 +1,31 @@
-# Registrar
+# OSFA
 
-University of Washington, Office of the University Registrar themes for the [Athens](https://github.com/AthensFramework/core) web framework.
+University of Washington, Office of Student Financial Aid theme for the [Athens](https://github.com/AthensFramework/core) web framework.
 
 
-![Registrar theme templates in action.](doc/assets/images/demo.png)<br>
+![OSFA theme templates in action.](doc/assets/images/demo.png)<br>
 *Attractive, easy on-brand pages for* Athens *using these templates.*
 
 ## Use
 
 These templates are for the [Athens](https://github.com/AthensFramework/core) web framework. You must be using Athens to use these templates.
 
-1. Add the Registrar theme templates to the package requirements in your `composer.json`:
+1. Add the OSFA theme templates to the package requirements in your `composer.json`:
 
   ```
   "require": {
         ...
         "athens/core": "0.*",
-        "uwdoem/registrar": "0.*",
+        "uwdoem/osfa": "0.*",
         ...
   },
   ```
   
   The major version number of `uwdoem/boundless` should be the same as your major version number of `athens/core`.
 
-2. Add the Registrar and Boundless templates in your project's `setup.php`, **above** the line that adds your project-templates (order matters!):
+2. Add the OSFA and Boundless templates in your project's `setup.php`, **above** the line that adds your project-templates (order matters!):
   ```
-  Settings::addTemplateDirectory(dirname(__FILE__) ."/vendor/uwdoem/registrar/templates");
+  Settings::addTemplateDirectory(dirname(__FILE__) ."/vendor/uwdoem/osfa/templates");
   Settings::addTemplateDirectory(dirname(__FILE__) ."/vendor/uwdoem/boundless/templates");
   Settings::addTemplateDirectory(dirname(__FILE__) ."/project-templates");
   ```
@@ -34,7 +34,7 @@ These templates are for the [Athens](https://github.com/AthensFramework/core) we
 
 ## License
 
-Because this repository contains significant Unviersity of Washington trademark elements, it is NOT licensed for reuse by any party who is not licensed to present University of Washington trademark elements. See the University of Washington [Trademarks & Licensing group](https://www.washington.edu/trademarks/) for more information.
+Because this repository contains significant University of Washington trademark elements, it is NOT licensed for reuse by any party who is not licensed to present University of Washington trademark elements. See the University of Washington [Trademarks & Licensing group](https://www.washington.edu/trademarks/) for more information.
 
 If you are a department or division of the University of Washington, please feel free to use Athens and these templates, conditioned upon your acceptance of the following statement:
 
