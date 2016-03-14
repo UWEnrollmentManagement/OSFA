@@ -1,0 +1,8 @@
+{
+  "name": "uwdoem/osfa",
+  "description": "Athens theme for the University of Washington Office of Student Financial Aid.",
+  "require": {
+    "athens/core": "0.*",
+    "uwdoem/boundless": "0.*"
+  }
+}
