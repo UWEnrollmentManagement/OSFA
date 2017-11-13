@@ -1,6 +1,13 @@
 {
   "name": "uwdoem/osfa",
   "description": "Athens theme for the University of Washington Office of Student Financial Aid.",
+  "authors": [
+      {
+          "name": "Page Bonifaci",
+          "email": "bonpacific@protonmail.com",
+          "role": "Developer"
+      }
+  ],
   "require": {
     "athens/core": "0.*",
     "uwdoem/boundless": "0.*"
